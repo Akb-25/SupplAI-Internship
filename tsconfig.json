@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./src/functions",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["HttpTrigger/*.ts"],
+  "exclude": ["node_modules"]
+}
